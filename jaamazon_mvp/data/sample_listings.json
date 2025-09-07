@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Green Raptor (Natural)",
+    "category": "Pets",
+    "rarity": "Uncommon",
+    "priceType": "sapphires",
+    "price": 120,
+    "wants": [
+      "Forest-themed pets",
+      "Rare den items"
+    ],
+    "notes": "Friendly, no rename",
+    "image": "",
+    "user": "AJ: LeafLynx",
+    "contact": "Discord: leaflynx#1024",
+    "postedAt": "2025-09-07T14:50:51.475013Z"
+  },
+  {
+    "title": "Gummy Flower Crown",
+    "category": "Items",
+    "rarity": "Rare",
+    "priceType": "trade",
+    "price": null,
+    "wants": [
+      "Mid-tier pets",
+      "Sapphires add"
+    ],
+    "notes": "Good condition",
+    "image": "",
+    "user": "AJ: MintMara",
+    "contact": "In-game Jam-a-Gram",
+    "postedAt": "2025-09-06T15:50:51.475013Z"
+  },
+  {
+    "title": "Crystal Den Bundle",
+    "category": "Dens",
+    "rarity": "Epic",
+    "priceType": "sapphires",
+    "price": 900,
+    "wants": [
+      "Sapphire-only"
+    ],
+    "notes": "No holds",
+    "image": "",
+    "user": "AJ: StarBadger",
+    "contact": "Discord: starbadger",
+    "postedAt": "2025-09-05T17:50:51.475013Z"
+  }
+]

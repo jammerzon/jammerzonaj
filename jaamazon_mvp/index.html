@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jaamazon — Animal Jam Trading Board (MVP)</title>
+  <meta name="description" content="A fast, free Animal Jam trading board. Search listings, filter by category, and connect with traders.">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuse.js for fuzzy search -->
+  <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Jaamazon</h1>
+      <p class="tag">Unofficial Animal Jam trading board — MVP</p>
+      <nav>
+        <a class="btn" href="#" id="refresh">Refresh</a>
+        <a class="btn primary" href="#" id="postListing">Post a listing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <h2>Find a trade</h2>
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search items, pets, wants...">
+        <select id="category">
+          <option value="">All categories</option>
+          <option>Pets</option>
+          <option>Items</option>
+          <option>Dens</option>
+          <option>Other</option>
+        </select>
+        <select id="priceType">
+          <option value="">Any currency</option>
+          <option value="sapphires">Sapphires</option>
+          <option value="gems">Gems</option>
+          <option value="trade">Trade only</option>
+        </select>
+        <select id="sort">
+          <option value="newest">Newest first</option>
+          <option value="priceLow">Price low to high</option>
+          <option value="priceHigh">Price high to low</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="stats" class="muted"></section>
+
+    <section id="listings" class="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Disclaimer:</strong> Unofficial fan-made site. Not affiliated with WildWorks or Animal Jam. No real-money trading. Respect game Terms of Service.</p>
+      <p>© <span id="year"></span> Jaamazon</p>
+    </div>
+  </footer>
+</body>
+</html>
